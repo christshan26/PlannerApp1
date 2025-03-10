@@ -1,0 +1,26 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlannerApp1.Views.HomePage"
+             Title="Hem">
+    <!-- Container for the Main layout -->
+    <StackLayout>
+        <!-- Head label for displaying the activites for today -->
+        <Label Text="DAGENS AKTIVITETER" FontAttributes="Bold" FontSize="Large" VerticalOptions="Start" Padding="10" />
+        <!-- CollectionView to display the activites -->
+        <CollectionView ItemsSource="{Binding TodayActivities}" VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <!-- Frame to display the activity -->
+                    <Frame BackgroundColor="{Binding BackgroundColor}" Margin="0,2,0,2" BorderColor="Black">
+                        <StackLayout>
+                            <Label Text="{Binding Title}" />
+                            <Label Text="{Binding Description}" />
+                            <Label Text="{Binding TimeRange}" />
+                            <Label Text="{Binding Member}" />
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

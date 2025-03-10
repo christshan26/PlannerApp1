@@ -1,0 +1,8 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlannerApp1.Views.MonthOverviewPage"
+             Title="Schema">
+    <StackLayout>
+        <!-- TODO: Add UI elements for the month overview here -->
+    </StackLayout>
+</ContentPage>

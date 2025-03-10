@@ -41,6 +41,13 @@ The home page displays a list of today's activities, sorted by their start time.
 
 To add a new activity, navigate to the "New Activity" page and fill in the required details such as title, description, start time, end time, and member.
 
+## TODOs
+
+- **Implement save functionality**
+- **Add UI elements for the month overview**
+- **Implement month overview functionality**
+- **Integrate Firebase for cloud synchronization**
+
 ## Project Structure
 
 - **Models**: Contains the `Activity` model which represents an activity.

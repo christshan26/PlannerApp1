@@ -1,7 +1,7 @@
 # PlannerApp1
 
 PlannerApp1 is a cross-platform application built using .NET MAUI. It helps users plan and manage their daily activities efficiently. The application supports Android, iOS, MacCatalyst, and Windows platforms.
-**The application is intended for Swedish users.**
+<br>**The application is intended for Swedish users.**
 > [!NOTE]
 >Please be aware that this is an application under development by me, a .NET-developer student.
 
